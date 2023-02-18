@@ -47,7 +47,7 @@ In addition, we propose the addition of two disposable container objects to assi
 with managing multiple resources:
 
 - `DisposableStack` &mdash; A stack-based container of disposable resources.
-- ~~`AsyncDisposableStack` &mdash; A stack-based container of asynchronously disposable resources.~~ 
+- ~~`AsyncDisposableStack` &mdash; A stack-based container of asynchronously disposable resources.~~
   _`AsyncDisposableStack`_ has been deferred to a [follow-on proposal][async-using].
 
 ## Status
@@ -1285,7 +1285,9 @@ The following is a high-level list of tasks to progress through each stage of th
 
 ## Implementations
 
-- Built-ins from this proposal are available in [`core-js`](https://github.com/zloirock/core-js#explicit-resource-management)
+- Built-ins from this proposal are available in:
+ - [`core-js`](https://github.com/zloirock/core-js#explicit-resource-management)
+ - es-shims [`disposablestack`](https://npmjs.com/disposablestack)
 
 <!-- # References -->
 
